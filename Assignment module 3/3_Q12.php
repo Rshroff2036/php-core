@@ -1,13 +1,9 @@
 <?php
+$string = "one,two,three,four";
+$array = explode(",", $string);
 
-function duplicatearray($array)
+foreach ($array as $element) 
 {
- $uniquearrray = array_unique($array);
-
- echo implode(" ," ,$uniquearrray);
-
+    echo $element . "<br>"; 
 }
-
-$array =array(1,2,3,5,5,6,7,3,2,6,) ;
-duplicatearray($array) ;
 ?>
