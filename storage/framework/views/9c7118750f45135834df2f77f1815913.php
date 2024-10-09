@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\Insurance-Management\InsuranceManagement\resources\views/welcome.blade.php ENDPATH**/ ?>
